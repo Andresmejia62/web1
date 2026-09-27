@@ -348,7 +348,7 @@
 
     function mailtoFallback(v) {
       var body = "Nombre: " + v.nombre + "\nEmail: " + v.email + "\n\n" + v.mensaje;
-      window.location.href = "mailto:" + (BRAND.email || "amejia@uamv.edu.ni") +
+      window.location.href = "mailto:" + (BRAND.email || "aemejiacastro@gmail.com") +
         "?subject=" + encodeURIComponent("Contacto desde el portafolio — " + v.nombre) +
         "&body=" + encodeURIComponent(body);
     }
